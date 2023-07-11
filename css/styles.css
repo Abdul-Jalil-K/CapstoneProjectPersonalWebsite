@@ -1,0 +1,180 @@
+/* ID */
+
+#contact-info {
+    background-color: #3A98B9;
+}
+
+#introduction{
+    background-color: #3A98B9;
+    padding: 20px;
+}
+
+#header {
+    background-color: #3A98B9;
+    color: white;
+}
+
+#resume, #showcase {
+    background-color: #FFF1DC;
+    padding-bottom: 50px;
+}
+
+#footer {
+    background-color: #3A98B9;
+}
+
+#my-life, #things-I-like {
+    background-color: #FFF1DC;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* CLASSES */
+
+
+.my-img {
+    border-radius: 50%;
+    width: 300px;
+    height: 200px;
+}
+
+.name {
+    font-family: 'Arizonia', cursive;
+    font-size: 3rem;
+}
+
+
+.education-link {
+    color: #3A98B9;
+    text-decoration: underline;
+}
+
+.skill-summary {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.skill-list {
+    display: inline;
+}
+
+.nav-item {
+    color: black;
+}
+
+.nav {
+    border-bottom: dotted 6px white;
+}
+
+.intro {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+.greeting {
+    font-family: 'Arizonia', cursive;
+    font-size: 5rem;
+    padding-bottom: 10px;
+}
+
+.synopsis {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.saudi-arabia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3rem;
+}
+
+.philadelphia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+}
+
+
+
+.life-in-saudi, .life-in-philly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.chat, .contact-info {
+    color: white;
+    text-align: center;
+}
+
+.chat {
+    padding-bottom: 3rem;
+}
+
+.my-mail {
+    color: white;
+    text-decoration: none;
+}
+
+ .my-mail:hover{
+    color: #B31312;
+}
+
+.contact-start {
+    font-family: 'Arizonia', cursive;
+    font-size: 5rem;
+    padding-bottom: 10px;
+}
+
+.call-to-action {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contact-list {
+    text-align: left;
+}
+
+.list-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+
+/* ELEMENTS */
+
+a {
+    color: #884A39;
+    text-decoration: none;
+}
+
+hr {
+    visibility: hidden;
+}
+
+
+
+@media (max-width: 600px) {
+    .saudi-arabia {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .philadelphia {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .location {
+        width: 24rem;
+        height: 20rem;
+    }
+
+    .life-in-saudi, .life-in-saudi {
+        display: inline;
+    }
+}
